@@ -1,0 +1,42 @@
+{
+  "name": "curbl-gl-util",
+  "version": "1.0.0",
+  "description": "set of utility classes for working with webgl 2",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "eslint": "eslint ./src/**/*.ts",
+    "eslint:fix": "eslint --fix ./src/**/*.ts",
+    "check": "tsc --noEmit && eslint ./src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xan0C/curbl-gl-util.git"
+  },
+  "keywords": [
+    "webgl",
+    "typescript",
+    "webgl2"
+  ],
+  "author": "Sören Vullriede",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xan0C/curbl-gl-util/issues"
+  },
+  "homepage": "https://github.com/Xan0C/curbl-gl-util#readme",
+  "devDependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "@types/webgl2": "0.0.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.1.0"
+  }
+}
