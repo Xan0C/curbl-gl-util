@@ -1,3 +1,7 @@
 .idea
 node_modules
 src
+.circleci
+.prettierrc.js
+.eslintrc.js
+tsconfig.json
