@@ -1,7 +1,8 @@
+.circleci
 .idea
 node_modules
 src
-.circleci
-.prettierrc.js
 .eslintrc.js
+.gitignore
+.prettierrc.js
 tsconfig.json

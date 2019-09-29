@@ -1,5 +1,5 @@
 {
-  "name": "curbl-gl-util",
+  "name": "@curbl/gl-util",
   "version": "0.1.1",
   "description": "set of utility classes for working with webgl 2",
   "main": "./lib/index.js",
