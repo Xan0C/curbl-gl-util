@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Xan0C/curbl-gl-util#readme",
   "devDependencies": {
     "@types/gl-matrix": "^2.4.5",
-    "@types/webgl2": "0.0.5",
+    "@types/webgl2": "0.0.6",
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
     "eslint": "^6.4.0",
